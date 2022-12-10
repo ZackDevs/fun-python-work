@@ -100,8 +100,8 @@ def start():
 			print("\nA pessoa morreu")
 			print(f"A palavra era {word}.")
 			break
-		letra = input("\nLetra? ")
-		if letra.lower() == word:
+		letra = input("\nLetra? ").lower()
+		if letra == word:
 			s = "" if looses == 1 else "s"
 			print()
 			print("Ganhaste! Nice.")
